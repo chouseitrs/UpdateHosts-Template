@@ -42,8 +42,8 @@ else:
     )
 
 # Get the password input from user
-#apipw=getpass("OP5 API Password:")
-apipw='monitor'
+apipw=getpass("OP5 API Password:")
+
 
 payload = {
     'template':args.template
